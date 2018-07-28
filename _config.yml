@@ -13,7 +13,12 @@ description:         'Some small stuff!'
 url:                 https://tchetry.github.io/
 baseurl:             '/tchetry.github.io'
 paginate:            1
-plugins:            jemoji
+plugins:
+   - jekyll-mentions
+   - jemoji
+   - jekyll-redirect-from
+   - jekyll-sitemap
+   - jekyll-feed
 
 # About/contact
 author:
