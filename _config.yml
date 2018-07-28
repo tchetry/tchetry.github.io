@@ -13,6 +13,7 @@ description:         'Some small stuff!'
 url:                 https://tchetry.github.io/
 baseurl:             '/tchetry.github.io'
 paginate:            1
+plugins:          - jemoji
 
 # About/contact
 author:

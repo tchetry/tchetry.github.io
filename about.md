@@ -11,4 +11,4 @@ I am a graduate student at Ohio University, [Department of Physics and Astronomy
 
 Here I will post about my interests and some useful ways of how to make something work! :smile:
 
-Thanks for reading!
+Enjoy!
