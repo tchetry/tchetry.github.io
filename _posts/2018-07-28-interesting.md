@@ -11,7 +11,6 @@ Here I will explain how to build ROOT from scratch. I have Fedora 28 with KDE en
 ### Download the latest source
 The entire ROOT source can be obtained from ROOT's public Git repository:
 {% highlight js %}
-	//
 	git clone http://github.com/root-project/root.git
 {% endhighlight %}
 The release specific tag can be obtained using:
