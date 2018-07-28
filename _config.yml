@@ -12,7 +12,7 @@ tagline:             'Particle Physicist * Experimentalist * Data Analyst'
 description:         'Some small stuff!'
 url:                 https://tchetry.github.io/
 baseurl:             '/tchetry.github.io'
-paginate:            5
+paginate:            1
 
 # About/contact
 author:
