@@ -1,1 +1,1 @@
-###Let's learn! :bowtie: :smile:
+###Let's learn! :bowtie:
