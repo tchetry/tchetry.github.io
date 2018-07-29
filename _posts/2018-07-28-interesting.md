@@ -92,4 +92,4 @@ python
 If there are no import errors, then you are ready to use ROOT.
 
 Have fun!
-Thanks for reading!
+Thanks for reading
