@@ -10,40 +10,32 @@ In this post I will explain how to build CERN's [ROOT](https://root.cern.ch/) fr
 
 ### Download the latest source
 The entire ROOT source can be obtained from ROOT's public Git repository:
-{% highlight js %}
-$ git clone http://github.com/root-project/root.git
-{% endhighlight %}
+````bash
+git clone http://github.com/root-project/root.git
+````
 The release specific tag can be obtained using:
-{% highlight js %}
-$ cd root
-$ git checkout -b v6-14-02 v6-14-02
-{% endhighlight %}
+````bash
+cd root
+git checkout -b v6-14-02 v6-14-02
+````
 
 ### Dependencies
 Dependencies are the underlying programs a computer needs in order to build new programs. So here we download some prerequisites to build root.
 
 Get the required packages using:
-{% highlight sh %}
-$ sudo dnf install git cmake gcc-c++ gcc binutils libX11-devel libXpm-devel libXft-devel libXext-devel
-{% endhighlight %}
+````bash
+sudo dnf install git cmake gcc-c++ gcc binutils libX11-devel libXpm-devel libXft-devel libXext-devel
+````
 
 There are other optional packages you may want to install:
-{% highlight sh %}
-$ sudo yum install gcc-gfortran openssl-devel pcre-devel \
+````bash
+sudo yum install gcc-gfortran openssl-devel pcre-devel \
 mesa-libGL-devel mesa-libGLU-devel glew-devel ftgl-devel mysql-devel \
 fftw-devel cfitsio-devel graphviz-devel \
 avahi-compat-libdns_sd-devel libldap-dev python-devel \
 libxml2-devel gsl-static
-{% endhighlight %}
+````
 
-~~~~
-$ sudo dnf install git cmake gcc-c++ gcc binutils libX11-devel libXpm-devel libXft-devel libXext-devel
-$ sudo yum install gcc-gfortran openssl-devel pcre-devel \
-mesa-libGL-devel mesa-libGLU-devel glew-devel ftgl-devel mysql-devel \
-fftw-devel cfitsio-devel graphviz-devel \
-avahi-compat-libdns_sd-devel libldap-dev python-devel \
-libxml2-devel gsl-static
-~~~~
 Here you go again and again
 again
 
