@@ -156,7 +156,7 @@ code {
   padding: .25em .5em;
   font-size: 85%;
   color: #bf616a;
-  background-color: #7C7C7C;
+  background-color: #f9f9f9;
   border-radius: 3px;
 }
 pre {
@@ -167,22 +167,10 @@ pre {
   font-size: .8rem;
   line-height: 1.4;
   white-space: pre;
-  /*white-space: pre-wrap;*/
-  white-space: nowrap;
-  /*word-break: break-all;*/
-  /*word-wrap: break-word;*/
-  background-color: #7C7C7C;
-  line-height: 1.5;
-  overflow-x: auto;
-  &::-webkit-scrollbar {
-    height: 12px;
-    background-color: #34362e;
-    border-radius: 0 0 4px 4px;
-  }
-  &::-webkit-scrollbar-thumb:horizontal {
-    background-color: #6a6d5d;
-    @include rounded(4px);
-  }
+  white-space: pre-wrap;
+  word-break: break-all;
+  word-wrap: break-word;
+  background-color: #f9f9f9;
 }
 pre code {
   padding: 0;
