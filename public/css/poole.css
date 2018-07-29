@@ -156,7 +156,7 @@ code {
   padding: .25em .5em;
   font-size: 85%;
   color: #bf616a;
-  background-color: #7C7C7C;
+  background-color: #f2e7e8;
   border-radius: 3px;
 }
 pre {
@@ -171,16 +171,16 @@ pre {
   white-space: nowrap;
   /*word-break: break-all;*/
   /*word-wrap: break-word;*/
-  background-color: #7C7C7C;
+  background-color: #f2e7e8;
   line-height: 1.5;
   overflow-x: auto;
   &::-webkit-scrollbar {
     height: 12px;
-    /*background-color: #34362e;*/
+    background-color: #f2e7e8;
     border-radius: 0 0 4px 4px;
   }
   &::-webkit-scrollbar-thumb:horizontal {
-    background-color: #6a6d5d;
+    background-color: #f2e7e8;
     @include rounded(4px);
   }
 }
