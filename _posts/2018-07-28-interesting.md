@@ -27,6 +27,8 @@ Get the required packages using:
 $ sudo dnf install git cmake gcc-c++ gcc binutils libX11-devel libXpm-devel libXft-devel libXext-devel
 {% endhighlight %}
 
+In the name
+
 There are other optional packages you may want to install:
 {% highlight %}
 $ sudo yum install gcc-gfortran openssl-devel pcre-devel \
