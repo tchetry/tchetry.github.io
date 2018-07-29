@@ -23,14 +23,12 @@ $ git checkout -b v6-14-02 v6-14-02
 Dependencies are the underlying programs a computer needs in order to build new programs. So here we download some prerequisites to build root.
 
 Get the required packages using:
-{% highlight js %}
+{% highlight sh %}
 $ sudo dnf install git cmake gcc-c++ gcc binutils libX11-devel libXpm-devel libXft-devel libXext-devel
 {% endhighlight %}
 
-In the name
-
 There are other optional packages you may want to install:
-{% highlight js %}
+{% highlight sh %}
 $ sudo yum install gcc-gfortran openssl-devel pcre-devel \
 mesa-libGL-devel mesa-libGLU-devel glew-devel ftgl-devel mysql-devel \
 fftw-devel cfitsio-devel graphviz-devel \
@@ -38,8 +36,13 @@ avahi-compat-libdns_sd-devel libldap-dev python-devel \
 libxml2-devel gsl-static
 {% endhighlight %}
 
-Here you go! Once in a while
-
-
+~~~~
+$ sudo dnf install git cmake gcc-c++ gcc binutils libX11-devel libXpm-devel libXft-devel libXext-devel
+$ sudo yum install gcc-gfortran openssl-devel pcre-devel \
+mesa-libGL-devel mesa-libGLU-devel glew-devel ftgl-devel mysql-devel \
+fftw-devel cfitsio-devel graphviz-devel \
+avahi-compat-libdns_sd-devel libldap-dev python-devel \
+libxml2-devel gsl-static
+~~~~
 
 Thanks!
