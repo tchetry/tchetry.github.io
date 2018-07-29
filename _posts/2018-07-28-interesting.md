@@ -45,17 +45,51 @@ sudo git clone --depth 1 http://github.com/root-project/root.git
 ```
 The `--depth 1` will ensure you that you checkout the latest version from their git source.
 
-
-Here you go
+### Building ROOT
 ```bash
-#CERN ROOT
+cd root
+#Create a directory where you want to compile
+mkdir rootBuild
+```
+Now if the system complains about you not being a super user `sudo`, you can choose to unlock the folder permissions back to you as a user. Just try this command line
+```bash
+#go one step up from root directory
+cd ..
+#change ownership to yourself (no sudo command needed later)
+sudo chown -R $(whoami)"$(id -g -n $(whoami)) " root
+```
+Now go to the downloaded directory `root` one more time and try to create a new directory:
+```bash
+cd root
+mkdir rootBuild
+##It should not complain now
+cd rootBuild
+cmake -Dpython=ON -Droofit=ON -DCMAKE_INSTALL_PREFIX:PATH=/usr/local/root ..
+make -j$(nproc)
+sudo make install
+```
+
+### Install ROOT
+Now install the source:
+```bash
+cd /usr/local/root
+source bin/thisroot.sh
+```
+Now add these lines to your `.bashrc` file. You can access it at `~/.bashrc`
+```bash
+#ROOT CERN environment variables
 export ROOTSYS=/usr/local/root
 export PATH=$ROOTSYS/bin:$PATH
 export PYTHONDIR=$ROOTSYS
 export LD_LIBRARY_PATH=$ROOTSYS/lib:$PYTHONDIR/lib:$ROOTSYS/bindings/pyroot:$LD_LIBRARY_PATH
 export PYTHONPATH=$ROOTSYS/lib:$PYTHONPATH:$ROOTSYS/bindings/pyroot
 ```
+You are all set. Try running root `root -l`. To check if ROOT is also installed for python properly, you can run an interactive session and try to import ROOT:
+```bash
+python
+>>> import ROOT
+```
+If there are no import errors, then you are ready to use ROOT.
 
-again well well 1 1 1
-
-Thanks!
+Have fun!
+Thanks for reading!
