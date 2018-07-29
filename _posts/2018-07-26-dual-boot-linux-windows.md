@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My Interests
+title: Dual Boot Your Laptop: Windows and Linux
 ---
 
 Teska baje
