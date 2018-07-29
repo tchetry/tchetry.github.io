@@ -29,14 +29,22 @@ sudo dnf install git cmake gcc-c++ gcc binutils libX11-devel libXpm-devel libXft
 
 There are other optional packages you may want to install:
 ````bash
-sudo yum install gcc-gfortran openssl-devel pcre-devel \
+sudo dnf install gcc-gfortran openssl-devel pcre-devel \
 mesa-libGL-devel mesa-libGLU-devel glew-devel ftgl-devel mysql-devel \
 fftw-devel cfitsio-devel graphviz-devel \
 avahi-compat-libdns_sd-devel libldap-dev python-devel \
 libxml2-devel gsl-static
 ````
-
 Here you go
+```bash
+#CERN ROOT
+export ROOTSYS=/usr/local/root
+export PATH=$ROOTSYS/bin:$PATH
+export PYTHONDIR=$ROOTSYS
+export LD_LIBRARY_PATH=$ROOTSYS/lib:$PYTHONDIR/lib:$ROOTSYS/bindings/pyroot:$LD_LIBRARY_PATH
+export PYTHONPATH=$ROOTSYS/lib:$PYTHONPATH:$ROOTSYS/bindings/pyroot
+```
+
 again
 
 Thanks!
