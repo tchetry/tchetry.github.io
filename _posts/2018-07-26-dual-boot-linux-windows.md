@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dual Boot Your Laptop: Windows and Linux
+title: Dual Boot Your Laptop Windows and Linux
 ---
 
 ### Introduction
