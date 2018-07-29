@@ -40,7 +40,6 @@ libxml2-devel gsl-static
 
 Here you go! Once in a while
 
-<pre><code>$ sudo dnf install git cmake gcc-c++ gcc binutils libX11-devel libXpm-devel libXft-devel libXext-devel 
-</code></pre>
+
 
 Thanks!
