@@ -53,7 +53,7 @@ mkdir rootBuild
 ```
 Now if the system complains about you not being a super user `sudo`, you can choose to unlock the folder permissions back to you as a user. Just try this command line
 ```bash
-#go one step up from root directory
+#go one step up from current directory
 cd ..
 #change ownership to yourself (no sudo command needed later)
 sudo chown -R $(whoami)"$(id -g -n $(whoami)) " root
