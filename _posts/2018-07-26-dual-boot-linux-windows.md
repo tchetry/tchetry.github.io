@@ -15,5 +15,12 @@ On Windows:
 	* Follow prompts on screen
 	* Remove USB and keep it safe until dual boot is complete.
 
-## Installing Linux
-I will post the steps here to install Fedora-Workstation flavored with __K Desktop Environment (KDE)__.
+## Download Linux
+I will post the steps here to install Fedora-Workstation flavored with __K Desktop Environment (KDE)__. While you are on the Windows system, use another USB drive to create a Fedora Live Stick. In order to do that, download [Rufus](https://rufus.akeo.ie/) and then download [Fedora Workstation](https://getfedora.org/en/workstation/download/). Once both are downloaded, run Rufus and create a bootable Fedora Live USB (Follow on-screen prompts after Rufus application opens). You are ready now to install!
+
+## Install Linux
+Reboot your machine and while its restarting, go to the Boot Menu (Press `F12` or `F10` depending on your computer). Disable 'secure boot' and enable 'USB Boot' and restart again (you can do `Ctrl`+`Alt`+`Del` to reboot). Before it loads Window OS, go to the Boot Loader and Select your USB (it may be named as Fedora now). Once it starts and shows the Desktop, choose to install on the hard drive and follow the prompts. Once the installation completes, safely remove the USB and restart your machine. Depending on your machine, you may have to go to the Boot Menu each time after restarting to select your OS.
+
+Let me know if you have any further questions :email:
+
+Have a great day!
