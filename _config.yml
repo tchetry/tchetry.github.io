@@ -11,7 +11,7 @@ description:      Projects I am working on!
 tagline:             'Particle Physicist * Experimentalist * Data Analyst'
 description:         'Some small stuff!'
 url:                 https://tchetry.github.io/
-baseurl:             '/tchetry.github.io'
+baseurl:             ''
 paginate:            1
 plugins:
    - jekyll-mentions
