@@ -17,3 +17,4 @@ git clone [repository url]
 ~Under Preparation~  
 Have fun!  
 Thanks for reading
+<span style="color:blue">some *This is Blue italic.* text</span>
