@@ -13,8 +13,8 @@ cd \path\to\your\directory
 ```git
 git clone [repository url]
 ```
-
-~Under Preparation~  
-Have fun!  
-Thanks for reading
-<span style="color:blue">some *This is Blue italic.* text</span>
+<span style="color:red">~Under Preparation~  </span>
+<span style="color:blue">
+	Have Fun!  
+	Thanks for reading.
+</span>
