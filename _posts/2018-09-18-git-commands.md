@@ -10,8 +10,8 @@ cd \path\to\your\directory
 ```
 
 ####If you want to clone a project from GitHub to your local
-```bash
-git cline [repository url]
+```git
+git clone [repository url]
 ```
 
 <Under Preparation>
