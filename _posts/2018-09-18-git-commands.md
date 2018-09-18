@@ -2,6 +2,7 @@
 layout: post
 title: Basic GitHub Commands
 ---
+<span style="color:red">~Under Construction~  </span>
 
 #### Make sure to be on your development directory in the terminal.
 ```bash
@@ -13,8 +14,6 @@ cd \path\to\your\directory
 ```git
 git clone [repository url]
 ```
-<span style="color:red">~Under Preparation~  </span>
-
 <span style="color:blue">
 	Have Fun!  
 	Thanks for reading.
