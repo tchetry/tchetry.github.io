@@ -14,6 +14,7 @@ cd \path\to\your\directory
 git clone [repository url]
 ```
 <span style="color:red">~Under Preparation~  </span>
+
 <span style="color:blue">
 	Have Fun!  
 	Thanks for reading.
