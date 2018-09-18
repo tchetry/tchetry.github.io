@@ -14,6 +14,6 @@ cd \path\to\your\directory
 git clone [repository url]
 ```
 
-~Under Preparation~
-Have fun!
+~Under Preparation~  
+Have fun!  
 Thanks for reading
